@@ -1,0 +1,17 @@
+{
+  "name": "linkedin-data-scraper",
+  "version": "1.0.0",
+  "description": "Scraper to extract employee data from LinkedIn company pages and public profile information using Playwright",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "install:browsers": "npx playwright install",
+    "scrape": "node src/index.js --company --profile"
+  },
+  "author": "Mayur Mendhe",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.42.0",
+    "yargs": "^17.7.2"
+  }
+}
